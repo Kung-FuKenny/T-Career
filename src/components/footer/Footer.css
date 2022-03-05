@@ -37,3 +37,10 @@ section#footer {
   align-items: center;
   margin-bottom: 5px;
 }
+
+.footer-logo {
+  padding-top: 15px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  height: 70px;
+}

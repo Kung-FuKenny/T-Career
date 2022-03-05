@@ -32,7 +32,7 @@ const Navbar = () => {
           id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
           <li>
-            <a href="#">Home</a>
+            <a href="https://tafadzwa-app.vercel.app/#">Home</a>
           </li>
           <li>
             <a href="#features">About Us</a>
@@ -52,16 +52,13 @@ const Navbar = () => {
               Get Started
             </a>
           </li> */}
-          <li className="nav-btn">
-            <Button text={"Subscribe"} btnClass={"btn-dark"} href={"#subscribe"} />
-          </li>
         </ul>
       </menu>
       <div className="menu-icons" onClick={toggleMenu}>
         {showMenu ? (
-          <RiCloseLine color="#fff" size={30} />
+          <RiCloseLine color="#4b4586" size={30} />
         ) : (
-          <AiOutlineBars color="#fff" size={27} />
+          <AiOutlineBars color="#4b4586" size={27} />
         )}
       </div>
     </nav>

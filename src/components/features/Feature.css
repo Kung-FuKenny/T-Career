@@ -23,3 +23,8 @@
   text-transform: uppercase;
   color: #FFF;
 }
+
+.longText {
+  color: #FFF;
+  font-size: 2rem;
+}
