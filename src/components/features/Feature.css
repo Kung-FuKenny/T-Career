@@ -17,14 +17,14 @@
 }
 
 .feature-text h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 200;
   line-height: 1.4;
   text-transform: uppercase;
   color: #FFF;
 }
 
-.longText {
+.feature-text longText {
   color: #FFF;
   font-size: 2rem;
 }

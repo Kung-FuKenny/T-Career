@@ -19,7 +19,7 @@ const Feature = ({ applyNow, heading, text }) => {
       <div className="feature-text">
         <div className="read-more-read-less">
           <ReactReadMoreReadLess
-            charLimit={200}
+            charLimit={300}
             readMoreText={"Read more ▼"}
             readLessText={"Read less ▲"}
             readMoreClassName="read-more-less--more"
