@@ -22,6 +22,7 @@ const Footer = () => {
             <a href="https://tafadzwa-app.vercel.app/#download">&bull; Target</a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkJ-2DkAv9Zzwr_iVxwmsCUS69o4ODacSn2SkjB-7LKKQh2Q/viewform">&bull; Application</a>
           </div>
+        
         </div>
         <div className="footer-box">
           <h4>Support</h4>
