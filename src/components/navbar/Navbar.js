@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="logo">
       <img src={logo} alt="logo"  />
         <p className="logo-text">
-        <span></span>
+        <span><a href="https://tafadzwa-app.vercel.app/#"/></span>
         </p>
       </div>
       <menu>
@@ -35,16 +35,16 @@ const Navbar = () => {
             <a href="https://tafadzwa-app.vercel.app/#">Home</a>
           </li>
           <li>
-            <a href="#features">About Us</a>
+            <a href="https://tafadzwa-app.vercel.app/#features">About Us</a>
           </li>
           <li>
-            <a href="#faq">Recruitment</a>
+            <a href="https://tafadzwa-app.vercel.app/#faq">Recruitment</a>
           </li>
           <li>
-            <a href="#download">Target</a>
+            <a href="https://tafadzwa-app.vercel.app/#download">Target</a>
           </li>
           <li>
-            <a href="#career">Career</a>
+            <a href="https://t-career.vercel.app/">Career</a>
           </li>
 
           {/* <li>
