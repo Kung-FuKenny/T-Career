@@ -20,7 +20,7 @@ const Footer = () => {
             <a href="https://tafadzwa-app.vercel.app/#features">&bull; About</a>
             <a href="https://tafadzwa-app.vercel.app/#faq">&bull; Recruitment</a>
             <a href="https://tafadzwa-app.vercel.app/#download">&bull; Target</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkJ-2DkAv9Zzwr_iVxwmsCUS69o4ODacSn2SkjB-7LKKQh2Q/viewform">&bull; Application</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSePliqqVx3bKY01egx2OIPGndveTCC-D88xOwp9P1_RAXiu2g/viewform?usp=sf_link">&bull; Application</a>
           </div>
         
         </div>
