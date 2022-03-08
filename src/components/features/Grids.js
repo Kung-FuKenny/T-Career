@@ -44,7 +44,7 @@ const Grids = () => {
     <Container component="section" maxWidth="lg" className={classes.root}>
       <Grid container spacing={2} alignItems="stretch">
         <Grid item xs={12} sm={6}>
-        <img src={image} height={688} width={840} />
+          <img src={image} height={702} width={840} />
         </Grid>
         <Grid item xs={12} sm={6}>
           <section id="features">
@@ -52,24 +52,27 @@ const Grids = () => {
               <div className="title" data-aos="fade-up">
                 <BsFillBookmarkStarFill color="#fff" size={30} />
                 <div>
-                <h2 style={{ color: '#fff;'}} >Corporate Stakeholder Manager</h2>
+                  <h2 style={{ color: '#fff' }} >Corporate Stakeholder Manager</h2>
                 </div>
                 <Typography variant="h5" component="h3" className={classes.title}>
-                  Description
+                  Description:
                 </Typography>
                 <div>
-                <p className="u-text-small">
-                  <b>Purpose of the Job:</b> To lead, co-ordinate and manage both internal and external corporate communications and stakeholder relations initiatives towards positioning the Umgeni Water brand as a leading water utility in the industry and broader society. To facilitate and initiate stakeholder engagements for the purpose of consolidating and establishing new relationships.<br/> <b>Minimum Qualifications:</b> Matric with Bachelor's Degree (NQF 7) in Journalism or Communications or Public Relations / Administration Management. Post graduate qualification in publishing, communication and design will be an added advantage. Minimum Experience: Minimum of 8 years' experience of which 5 years in a senior corporate or public sector stakeholder / communications, journalism role. (This level of skill and experience are required. Anything under 8 years may not be adequate).
-                </p>
+                  <p className="u-text-small">
+                    <b>Purpose of the Job:</b> To lead, co-ordinate and manage both internal and external corporate communications and stakeholder relations initiatives towards positioning the Umgeni Water brand as a leading water utility in the industry and broader society. To facilitate and initiate stakeholder engagements for the purpose of consolidating and establishing new relationships.<br />
+                  </p>
+                  <p className="u-text-small">
+                    <br/><b>Minimum Qualifications:</b> Matric with Bachelor's Degree (NQF 7) in Journalism or Communications or Public Relations / Administration Management. Post graduate qualification in publishing, communication and design will be an added advantage. Minimum Experience: Minimum of 8 years' experience of which 5 years in a senior corporate or public sector stakeholder / communications, journalism role. (This level of skill and experience are required. Anything under 8 years may not be adequate).
+                  </p>
                 </div>
               </div>
               <button btnClass={"btn-light"} onClick={btnClick.bind(this)} >
                 Apply Now
               </button>
             </div>
-        </section>
+          </section>
+        </Grid>
       </Grid>
-    </Grid>
     </Container >
   );
 };

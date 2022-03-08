@@ -23,8 +23,8 @@ import {
 
 function App() {
   return (
-    <>
-      <header className="header-bg">
+    <div style={{width: '100%', position: "relative"}}>
+      <header  style={{width: "calc(100vw + 20%)!important"}} className="header-bg">
         <Navbar />
         <Header />
       </header>
@@ -32,7 +32,7 @@ function App() {
       <Grids data-aos="fade-up"/>
       <Faq />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -23,7 +23,7 @@ const Faq = () => {
           <p className="u-text-small">
           Fax: +27 86 535 8624
           </p>
-          Email: zoliswa@tafadzwa.co.za
+          Email: reception@tafadzwa.co.za
           <p className="u-text-small">
           </p>
           <div className="u-title" data-aos="fade-up">

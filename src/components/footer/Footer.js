@@ -41,7 +41,7 @@ const Footer = () => {
               <FaPhoneAlt /> &nbsp; : +27 11 438 4300
             </p>
             <p>
-              <FaEnvelope /> &nbsp; : zoliswa@tafadzwa.co.za
+              <FaEnvelope /> &nbsp; : reception@tafadzwa.co.za
             </p>
             <p>
               <FaGlobe /> &nbsp; : www.tafadzwa.co.za
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div className="footer-box">
           <img src={logo} alt="logo" href="href=https://tafadzwa-app.vercel.app/#" />
-          <p className="u-text-small">&copy; Copyright 2022. <a href="href=http://www.webparam.co.za/">Webparam</a></p>
+          <p className="u-text-small">&copy; Copyright 2022. <a href="http://www.webparam.co.za/">Webparam</a></p>
         </div>
       </div>
     </section>
