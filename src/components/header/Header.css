@@ -1,3 +1,7 @@
+#canvasWrapper {
+	max-width: initial;
+}
+
 #header {
   background: url(../../assets/subscribe-bgw.png);
   text-align: auto;

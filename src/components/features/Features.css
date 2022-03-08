@@ -1,3 +1,7 @@
+section#canvasWrapper {
+	max-width: initial;
+}
+
 section#features {
   background: #4b4586;
   text-align: center;
@@ -42,7 +46,7 @@ section#features {
 .features-content {
   display: flex;
   justify-content: center;
-  /* padding: 3rem 0; */
+  padding: 3rem 0;
 }
 
 .features-left {
@@ -51,7 +55,7 @@ section#features {
 }
 
 .features-left img {
-  width: 50%;
+  width: 60%;
 }
 
 .features-right {

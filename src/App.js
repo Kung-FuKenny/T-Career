@@ -11,6 +11,7 @@ import "./App.css";
 // import Download from "./components/download/Download";
 // import Subscribe from "./components/subscribe/Subscribe";
 // import Footer from "./components/footer/Footer";
+import Grids from "./components/features/Grids";
 
 import {
   Navbar,
@@ -27,7 +28,8 @@ function App() {
         <Navbar />
         <Header />
       </header>
-      <Features data-aos="fade-up" />
+      {/* <Features  /> */}
+      <Grids data-aos="fade-up"/>
       <Faq />
       <Footer />
     </>
