@@ -34,19 +34,19 @@ const Navbar = () => {
           id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
           <li>
-            <a href="#">Home</a>
+            <a href="https://tafadzwa-app.vercel.app/#">Home</a>
           </li>
           <li>
-            <a href="#features">About Us</a>
+            <a href="https://tafadzwa-app.vercel.app/#features">About Us</a>
           </li>
           <li>
-            <a href="#faq">Recruitment</a>
+            <a href="https://tafadzwa-app.vercel.app/#faq">Recruitment</a>
           </li>
           <li>
-            <a href="#download">Target</a>
+            <a href="https://tafadzwa-app.vercel.app/#download">Target</a>
           </li>
           <li>
-            <a href="https://t-career.vercel.app/">Career</a>
+            <a href="https://t-career-page.vercel.app/#">Career</a>
           </li>
           <li>
             <a href="https://t-career.vercel.app/#faq/">Contact</a>
