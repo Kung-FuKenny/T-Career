@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import { questions } from "./data.js";
 import Question from "./Question";
 import { MdOutlineLibraryBooks } from "react-icons/md";
-
+import map from "../../assets/map.png";
+import "./Faq.css"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -23,14 +24,17 @@ const Faq = () => {
           <p className="u-text-small">
           Fax: +27 86 535 8624
           </p>
-          Email: reception@tafadzwa.co.za
           <p className="u-text-small">
+          Email: reception@tafadzwa.co.za
           </p>
           <div className="u-title" data-aos="fade-up">
           
           </div> 
         </div>
-        <div className="questions">
+        <div className="map" data-aos="fade-left">
+          <img src={map} alt="map" height={290} width={360} margin={1} />
+          </div>
+        <div className="questions" data-aos="fade-right">
           {questions.map((question) => (
             <Question
               key={question.id}

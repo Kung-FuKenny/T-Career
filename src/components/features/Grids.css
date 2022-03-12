@@ -1,3 +1,18 @@
+.grids classes.root {
+  background: url(../../assets/subscribe-bgw.png);
+}
+
+#canvasWrapper {
+	max-width: initial;
+}
+
+section#grids {
+  background: #4b4586;
+  text-align: center;
+  color: #fff;
+  max-width: 100%;
+}
+
 .read-more-link{
     color: blueviolet;
     text-decoration: underline;
@@ -9,13 +24,9 @@
     font-weight: 500;
   }
   
-  section#features {
-    background: #4b4586;
-    text-align: center;
-    color: #fff;
-  }
   
-  .features button {
+  
+  .grids button {
     border-radius: 5px;
     padding: 5px 8px;
     font-weight: 500;
@@ -67,6 +78,11 @@
   
   .features-right {
     flex: 1;
+  }
+  @media screen and (max-width: 900px) {
+    .features-content {
+      flex-direction: column;
+    }
   }
   
   @media screen and (max-width: 600px) {

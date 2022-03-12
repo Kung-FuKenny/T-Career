@@ -2,7 +2,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8rem;
+  height: 7rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f9fa;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%; 
+  max-width: inherit;
+  top: 1;
+  border-bottom: solid 1px var(--primary-color);
+  opacity: 0.9;
+  top: 0;
+
+  /* box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25); */
+  box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
+    -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+  /* box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white,
+    12px 0 15px -4px rgba(31, 73, 125, 0.8),
+    -12px 0 15px -4px rgba(31, 73, 125, 0.8); */
+
 }
 
 .scrollNav {
@@ -12,7 +32,7 @@
   width: 100%;
   border-bottom: 1px solid #dddddd;
 }
-.styl {
+.style {
   padding-top: 80px;
 }
 

@@ -5,6 +5,7 @@ import phoneFeatures from "../../assets/phone-features.png";
 import Feature from "./Feature";
 import { FeatureList } from "./data";
 
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -1,11 +1,13 @@
 .question {
   border: 1px solid var(--light-blue);
   border-radius: 3px;
-  width: 90%;
+  width: 50%;
+  background-color: #f9fafa;
   max-width: 60rem;
+  margin: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   box-shadow: var(--box-shadow);
 }
 

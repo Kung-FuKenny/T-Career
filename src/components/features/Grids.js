@@ -9,7 +9,9 @@ import "./Grids.css"
 
 const useStyles = makeStyles(theme => ({
   root: {
-    padding: theme.spacing(12, 4),
+    padding: theme.spacing(12, 2),
+    width: '100%'
+    
   },
   card: {
     height: '100%',
@@ -18,7 +20,7 @@ const useStyles = makeStyles(theme => ({
     flexDirection: 'column',
     alignItems: 'center',
     border: '1px solid black',
-    borderRadius: '5px',
+    borderRadius: '2px',
     textAlign: 'center',
   },
   icon: {
@@ -44,12 +46,12 @@ const Grids = () => {
     <Container component="section" maxWidth="lg" className={classes.root}>
       <Grid container spacing={2} alignItems="stretch">
         <Grid item xs={12} sm={6}>
-          <img src={image} height={702} width={840} />
+          <img src={image} height={570} width={840} />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <section id="features">
-            <div className="container features">
-              <div className="title" data-aos="fade-up">
+          <section id="grids">
+            <div className="container grids">
+              <div className="titleq" data-aos="fade-up">
                 <BsFillBookmarkStarFill color="#fff" size={30} />
                 <div>
                   <h2 style={{ color: '#fff' }} >Corporate Stakeholder Manager</h2>

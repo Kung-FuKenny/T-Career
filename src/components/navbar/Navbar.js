@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
-import { SiAnaconda } from "react-icons/si";
+//import { SiAnaconda } from "react-icons/si";
+
 //import logo  from "C:\Users\HP\Desktop\NEWWEB\Tafadzwa\src\assets\log.png";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
@@ -19,11 +20,12 @@ const Navbar = () => {
     
   };
   return (
+  
     <nav className="navbar container"> 
       <div className="logo">
       <img src={logo} alt="logo"  />
         <p className="logo-text">
-        <span><a href="https://tafadzwa-app.vercel.app/#"/></span>
+        <span></span>
         </p>
       </div>
       <menu>
@@ -32,19 +34,22 @@ const Navbar = () => {
           id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
           <li>
-            <a href="https://tafadzwa-app.vercel.app/#">Home</a>
+            <a href="#">Home</a>
           </li>
           <li>
-            <a href="https://tafadzwa-app.vercel.app/#features">About Us</a>
+            <a href="#features">About Us</a>
           </li>
           <li>
-            <a href="https://tafadzwa-app.vercel.app/#faq">Recruitment</a>
+            <a href="#faq">Recruitment</a>
           </li>
           <li>
-            <a href="https://tafadzwa-app.vercel.app/#download">Target</a>
+            <a href="#download">Target</a>
           </li>
           <li>
             <a href="https://t-career.vercel.app/">Career</a>
+          </li>
+          <li>
+            <a href="https://t-career.vercel.app/#faq/">Contact</a>
           </li>
 
           {/* <li>
