@@ -24,14 +24,14 @@ const Header = () => {
             Tafadzwa Consulting believes in excellence. We speciality is connecting success-driven people with organisations that will implement discipline for results to be executed. Take a look at some of the career opportunities available below:
           </p>
           <div className="header-cta">
-            <Button text={"Learn More"} btnClass={"btn-dark"} href={"#features"} />
+            <Button text={"Learn More"} btnClass={"btn-dark"} href={"#grids"} />
           </div>
         </div>
         <div className="header-right" data-aos="fade-left">
         </div>
       </div>
       <div className="floating-icon">
-        <a href="#features">
+        <a href="#grids">
           <BsMouse color="#fff" size={25} className="mouse" />
         </a>
       </div>

@@ -30,7 +30,7 @@ function App() {
       </header>
       {/* <Features  /> */}
       <Grids data-aos="fade-up"/>
-      <Faq />
+      <Loc />
       <Footer />
     </div>
   );
