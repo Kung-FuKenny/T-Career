@@ -21,7 +21,7 @@ const Header = () => {
             <span>Careers</span>
           </h1>
           <p className="u-text-small">
-            Tafadzwa Consulting believes in excellence. We speciality is connecting success-driven people with organisations that will implement discipline for results to be executed. Take a look at some of the career opportunities available below:
+            Tafadzwa Consulting believes in excellence. Our speciality is connecting success-driven people with organisations that will implement discipline for results to be executed. Take a look at some of the career opportunities available below:
           </p>
           <div className="header-cta">
             <Button text={"Learn More"} btnClass={"btn-dark"} href={"#grids"} />
