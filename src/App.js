@@ -17,6 +17,7 @@ import {
   Navbar,
   Header,
   Features,
+  Pricing,
   Faq,
   Footer,
 } from "./components";
@@ -29,7 +30,7 @@ function App() {
         <Header />
       </header>
       {/* <Features  /> */}
-      <Grids data-aos="fade-up"/>
+      <Pricing data-aos="fade-up"/>
       <Faq />
       <Footer />
     </div>
