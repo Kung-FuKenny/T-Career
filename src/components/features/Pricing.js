@@ -8,7 +8,7 @@ import jpg3 from '../../assets/img3.jpg'
 
 const btnClick = () => {
     console.log('Im here')
-    window.open('https://forms.gle/KEgQLDYjfyMrg9kJ6')
+    window.open('https://forms.gle/1BtMnVCicYmL7nvM7')
   }
   
   const btnClick2 = () => {
