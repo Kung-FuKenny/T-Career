@@ -13,7 +13,7 @@ const btnClick = () => {
   
   const btnClick2 = () => {
     console.log('Im here')
-    window.open('https://forms.gle/pesBoWJzQn3oSGgd6https://docs.google.com/forms/d/e/1FAIpQLSf3-PfsUPiQYH6oXGRR_gVhXbB45q4tZtES7wWSGfC7sG9G5A/viewform?usp=sf_link')
+    window.open('https://forms.gle/1BtMnVCicYmL7nvM7')
   }
 
   const btnClick3 = () => {
