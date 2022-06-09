@@ -17,9 +17,14 @@ const btnClick2 = () => {
 }
 
 
-const btnClick4 = () => {
+const btnClick3 = () => {
   console.log('Im here')
   window.open('https://forms.gle/3jeD8g1YdaubwviH6')
+}
+
+const btnClick4 = () => {
+  console.log('Im here')
+  window.open('https://forms.gle/jCmbXUVpkz1zqKJ6A')
 }
 
 
@@ -76,7 +81,7 @@ const Pricing = () => {
         <div className='card'>
           <h3> Area Finance Manager Taxi (Sales Manager Taxi) </h3>
           <span className='bar'></span>
-          <img src={jpg4} className='img3' alt='' />
+          <img src={jpg4} className='img' alt='' />
           <p> Take responsibility for the effective promotion, training, and development of retail finance & insurance
             business for the company Dealer network by means of regular dealer visits as per area of responsibility by
             achieving designated targets & key focus on continually increasing penetration of company unique selling
