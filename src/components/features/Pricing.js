@@ -8,7 +8,7 @@ import jpg3 from '../../assets/img3.jpg'
 
 const btnClick = () => {
     console.log('Im here')
-    window.open('https://forms.gle/1BtMnVCicYmL7nvM7')
+    window.open('https://forms.gle/Be1NpigMakF6t148A')
   }
   
   const btnClick2 = () => {
@@ -27,12 +27,17 @@ const Pricing = () => {
         <div className='pricing'>
             <div className='card-container'>
                 <div className='card'>
-                    <h3> Customer Service Manager </h3>
+                    <h3> Strategy Support Consultant </h3>
                     <span className='bar'></span>
                     <img src={jpg1} className='img1' alt='' />
-                    <p> You will be reporting to the GM: Life Operations. You will be responsible addressing customer issues and providing them with relevant solutions, while retaining them through building and maintaining strong relationships and the provision of ongoing assistance.</p>
+                    <p> You will be responsible for supporting the formulation
+and implementation of key business strategies in keeping with Group aspirations. This
+includes (but not limited to) identifying industry and competitor trends, translating these
+into business opportunities, and supporting response efforts to the opportunities. You will
+also be responsible for enabling the governance of strategy in the Group. This includes
+(but not limited to) managing the Group strategic planning process and strategy calendar.</p>
                     <p>Contract Type: Permanent</p>
-                    <p>Closing Date: 30 April 2022</p>
+                    <p>Closing Date: 16 June 2022 (17:00)</p>
                     {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
                     <button btnClass={"btn"} onClick={btnClick.bind(this)} >
                 Apply Now
