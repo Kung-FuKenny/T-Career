@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import '../features/PricingStyles.css'
-import jpg1 from '../../assets/img1.jpeg'
+import jpg1 from '../../assets/img1.jpg'
 import jpg2 from '../../assets/img2.jpg'
 import jpg3 from '../../assets/img3.jpg'
 
@@ -39,12 +39,15 @@ const Pricing = () => {
               </button>
                 </div>
                 <div className='card'>
-                    <h3> Business Analytics Manager </h3>
+                    <h3> Compliance Officer </h3>
                     <span className='bar'></span>
                     <img src={jpg2} className='img2' alt='' />
-                    <p> You will be reporting to the Head: Strategy and Business Integration. You will be responsible for developing analytics strategies and for overseeing a team of analysts and reporting specialists who will be required to translate raw data into insights to support and influence business decision making. You will also be responsible for the design, implementation and delivery of the day-to-day reporting requirements across the Life business.</p>
+                    <p>You will be responsible for pro-actively and constructively assisting
+the RMA Group in managing its responsibility to comply with all applicable regulatory
+legislative requirements, applicable regulatory codes and standards, and internal policies
+and procedures.</p>
                     <p>Contract Type: Permanent</p>
-                    <p>Closing Date: 30 April 2022</p>
+                    <p>Closing Date: 16 June 2022 (17:00)</p>
                     {/* <Link to='/contact' className='btn'>Apply</Link> */}
                     <button btnClass={"btn"} onClick={btnClick2.bind(this)} >
                 Apply Now
