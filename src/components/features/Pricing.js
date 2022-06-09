@@ -18,7 +18,7 @@ const btnClick = () => {
 
   const btnClick3 = () => {
     console.log('Im here')
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSe0DZgM-XdydXo_yf_Gezy8nYRKiEcu0PAdvbxLdhMJOftcMw/viewform?usp=sf_link')
+    window.open('https://forms.gle/3jeD8g1YdaubwviH6')
   }
 
 
@@ -59,11 +59,14 @@ and procedures.</p>
               </button>
                 </div>
                 <div className='card'>
-                    <h3> Channel Marketing Manager </h3>
+                    <h3> Umgeni Water CEO </h3>
                     <span className='bar'></span>
                     <img src={jpg3} className='img3' alt='' />
-                    <p> you will be responsible for the development and execution of RML’s channel marketing strategy and programs, in order to target specific channels to promote RML’s services and products. You will be responsible for overseeing the development of marketing plans, keeping up to date with the latest digital trends, and coordinating campaigns within the marketing team and with department heads.</p>
-                    <p>Closing Date: 30 April 2022</p>
+                    <p> You will be responsible for Strategy Development *Operational Efficiency and
+Effectiveness *Financial Management * Water Resources Sustainability *Corporate Governance and Legal Compliance
+* Stakeholder Management * Human Capital Management.</p>
+                    <p>Closing Date: 18 June 2022 (Midnight) </p>
+                    <p>Contract Type: 5 Year Employment Contract</p>
                     {/* <Link to='/contact' className='btn'>Apply</Link> */}
                     <button btnClass={"btn"} onClick={btnClick3.bind(this)} >
                 Apply Now
