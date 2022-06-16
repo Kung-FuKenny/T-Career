@@ -5,6 +5,7 @@ import jpg1 from '../../assets/img1.jpg'
 import jpg2 from '../../assets/img2.jpg'
 import jpg3 from '../../assets/img3.jpg'
 import jpg4 from '../../assets/img4.jpg'
+import pdf from '../../assets/SCI-BONO_CEO_2022.pdf'
 
 const btnClick = () => {
   console.log('Im here')
@@ -27,11 +28,32 @@ const btnClick4 = () => {
   window.open('https://forms.gle/jCmbXUVpkz1zqKJ6A')
 }
 
+const onDownload = () => {
+  const link = document.createElement("a");
+  link.download = `SCI-BONO_CEO_2022.pdf`;
+  link.href = '../../assets/SCI-BONO_CEO_2022.pdf';
+  link.click();
+};
+
 
 const Pricing = () => {
   return (
     <div className='pricing'>
       <div className='card-container'>
+      <div className='card'>
+          <h3> SCI-BONO: Chief Executive Officer </h3>
+          <span className='bar'></span>
+          <img src={jpg4} className='img' alt='' />
+          <p> This position provides strategic leadership and effective management of the Sci-bono Discovery Science Centre and its resources in line with the mandate of the board of directors, and principal stakeholders. It is the main point of communication between the board of directors (the board) and corporate operations.
+It is responsible for positioning Sci-bono as a world-class science centre, building capacity in Maths, Science and Technology in South Africa through interactive exhibitions, research and training. It is responsible for ensuring that performance targets are met.</p>
+          <p>Contract Type: 5 Year Fixed Term</p>
+          <p>Closing Date: 24 June 2022</p>
+          <p>Email CV to: responses@tafadzwa.co.za</p>
+          {/* <Link to='/contact' className='btn'>Apply</Link> */}
+          <button btnClass={"btn"} onClick={onDownload.bind(this)} >
+            Download PDF
+          </button>
+        </div>
         <div className='card'>
           <h3> Strategy Support Consultant </h3>
           <span className='bar'></span>
@@ -43,24 +65,9 @@ const Pricing = () => {
             also be responsible for enabling the governance of strategy in the Group. This includes
             (but not limited to) managing the Group strategic planning process and strategy calendar.</p>
           <p>Contract Type: Permanent</p>
-          <p>Closing Date: 16 June 2022 (17:00)</p>
+          <p>Closing Date: 24 June 2022</p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick.bind(this)} >
-            Apply Now
-          </button>
-        </div>
-        <div className='card'>
-          <h3> Compliance Officer </h3>
-          <span className='bar'></span>
-          <img src={jpg2} className='img2' alt='' />
-          <p>You will be responsible for pro-actively and constructively assisting
-            the RMA Group in managing its responsibility to comply with all applicable regulatory
-            legislative requirements, applicable regulatory codes and standards, and internal policies
-            and procedures.</p>
-          <p>Contract Type: Permanent</p>
-          <p>Closing Date: 16 June 2022 (17:00)</p>
-          {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick2.bind(this)} >
             Apply Now
           </button>
         </div>
@@ -79,19 +86,17 @@ const Pricing = () => {
           </button>
         </div>
         <div className='card'>
-          <h3> Area Finance Manager Taxi (Sales Manager Taxi) </h3>
+          <h3> Compliance Officer </h3>
           <span className='bar'></span>
-          <img src={jpg4} className='img' alt='' />
-          <p> Take responsibility for the effective promotion, training, and development of retail finance & insurance
-            business for the company Dealer network by means of regular dealer visits as per area of responsibility by
-            achieving designated targets & key focus on continually increasing penetration of company unique selling
-            proposition FutureDrive. Ensure that company products and services support the sale of company vehicles through close partnership
-            with TSAM and the Sales Support Team. Ensure that company is the first-choice finance & Insurance
-            provider for the company Dealer network.</p>
+          <img src={jpg2} className='img2' alt='' />
+          <p>You will be responsible for pro-actively and constructively assisting
+            the RMA Group in managing its responsibility to comply with all applicable regulatory
+            legislative requirements, applicable regulatory codes and standards, and internal policies
+            and procedures.</p>
           <p>Contract Type: Permanent</p>
-          <p>Closing Date: 16 June 2022 (17:00)</p>
+          <p>Closing Date: 16 June 2022</p>
           {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick4.bind(this)} >
+          <button btnClass={"btn"} onClick={btnClick2.bind(this)} >
             Apply Now
           </button>
         </div>
