@@ -20,7 +20,7 @@ const btnClick2 = () => {
 
 const btnClick3 = () => {
   console.log('Im here')
-  window.open('https://forms.gle/3jeD8g1YdaubwviH6')
+  window.open('https://forms.gle/XcurtQXe5qadmCkb6')
 }
 
 const btnClick4 = () => {
@@ -40,7 +40,20 @@ const Pricing = () => {
   return (
     <div className='pricing'>
       <div className='card-container'>
-      <div className='card'>
+        <div className='card'>
+          <h3> Umgeni Water: Group Company Secretary </h3>
+          <span className='bar'></span>
+          <img src={jpg3} className='img3' alt='' />
+          <p> You will be responsible to provide company secretarial services to Umgeni Water Board and its subsidiaries to ensure compliance with
+statutory, judicial, and ethical corporate governance standards.</p>
+          <p>Closing Date: 31st July 2022 </p>
+          <p>Contract Type: 5 Year Fixed-Term Contract</p>
+          {/* <Link to='/contact' className='btn'>Apply</Link> */}
+          <button btnClass={"btn"} onClick={btnClick3.bind(this)} >
+            Apply Now
+          </button>
+        </div>
+        <div className='card'>
           <h3> SCI-BONO: Chief Executive Officer </h3>
           <span className='bar'></span>
           <img src={jpg4} className='img' alt='' />
@@ -68,20 +81,6 @@ It is responsible for positioning Sci-bono as a world-class science centre, buil
           <p>Closing Date: 24 June 2022</p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick.bind(this)} >
-            Apply Now
-          </button>
-        </div>
-        <div className='card'>
-          <h3> Umgeni Water CEO </h3>
-          <span className='bar'></span>
-          <img src={jpg3} className='img3' alt='' />
-          <p> You will be responsible for Strategy Development *Operational Efficiency and
-            Effectiveness *Financial Management * Water Resources Sustainability *Corporate Governance and Legal Compliance
-            * Stakeholder Management * Human Capital Management.</p>
-          <p>Closing Date: 18 June 2022 (Midnight) </p>
-          <p>Contract Type: 5 Year Employment Contract</p>
-          {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick3.bind(this)} >
             Apply Now
           </button>
         </div>
