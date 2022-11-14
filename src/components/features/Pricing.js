@@ -50,8 +50,10 @@ const Pricing = () => {
           <h3> Umgeni Water: Group Company Secretary </h3>
           <span className='bar'></span>
           <img src={jpg1} className='img' alt='' />
-          <p> You are responsible to provide company secretariat services to Umgeni Water Board and its subsidiaries to
-ensure compliance with statutory, judicial and ethical corporate governance standards.</p>
+          <p> An opportunity exists for a qualified individual to join the organization as a Group Company Secretary
+for Umgeni Water and its Subsidiaries (Msinsi Holdings and Umgeni Water Services) and operating as a
+member of the Executive Committee and reporting directly to the Board but administratively to the
+Executive responsible for Governance and Compliance.</p>
           <p>Closing Date: 15th November 2022 </p>
           <p>Contract Type: Permanent</p>
           {/* <Link to='/contact' className='btn'>Apply</Link> */}
