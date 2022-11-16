@@ -6,6 +6,8 @@ import jpg2 from '../../assets/img2.jpg'
 import jpg3 from '../../assets/img3.jpg'
 import jpg4 from '../../assets/img4.jpg'
 import jpg5 from '../../assets/img5.jpg'
+import jpg6 from '../../assets/img6.jpg'
+import jpg7 from '../../assets/img7.jpg'
 // import pdf from '../../assets/SCI-BONO_CEO_2022.pdf'
 
 const btnClick = () => {
@@ -15,24 +17,39 @@ const btnClick = () => {
 
 const btnClick2 = () => {
   console.log('Im here')
-  window.open('https://forms.gle/enFMS6Ko27dv3Bsk7')
+  window.open('https://forms.gle/3MJHZQr56FWBJFDY9')
 }
 
 
 const btnClick3 = () => {
   console.log('Im here')
-  window.open('https://forms.gle/hpqypRVB4Mv1k3Xq8')
+  window.open('https://forms.gle/skGeeyQFvrtxqdDt9')
 }
 
 const btnClick4 = () => {
   console.log('Im here')
-  window.open('https://forms.gle/vyMtAebCyGJbnf3J9')
+  window.open('https://forms.gle/Nu2sSQKZZKedmjHW9')
 }
 
 const btnClick5 = () => {
   console.log('Im here')
-  window.open('https://forms.gle/DEYUsgHUXfNqFuf7A')
+  window.open('https://forms.gle/XuH6EjZewAaXNSZz6')
 }
+
+const btnClick6 = () => {
+  console.log('Im here')
+  window.open('https://forms.gle/4jhws6RDKXhpekVq6')
+}
+
+const btnClick7 = () => {
+  console.log('Im here')
+  window.open('https://forms.gle/v435DHdXQycK4snr8')
+}
+
+
+
+
+
 
 // const onDownload = () => {
 //   const link = document.createElement("a");
@@ -50,11 +67,9 @@ const Pricing = () => {
           <h3> Umgeni Water: Group Company Secretary </h3>
           <span className='bar'></span>
           <img src={jpg1} className='img' alt='' />
-          <p> An opportunity exists for a qualified individual to join the organization as a Group Company Secretary
-for Umgeni Water and its Subsidiaries (Msinsi Holdings and Umgeni Water Services) and operating as a
-member of the Executive Committee and reporting directly to the Board but administratively to the
-Executive responsible for Governance and Compliance.</p>
-          <p>Closing Date: 15th November 2022 </p>
+          <p> You will have to provide company secretarial services to Umgeni Water Board and its subsidiaries to ensure compliance with
+            statutory, judicial, and ethical corporate governance standards.</p>
+          <p>Closing Date: 16th November 2022 </p>
           <p>Contract Type: Permanent</p>
           {/* <Link to='/contact' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick.bind(this)} >
@@ -62,63 +77,93 @@ Executive responsible for Governance and Compliance.</p>
           </button>
         </div>
         <div className='card'>
-          <h3> Umgeni Water: Chief Operating Officer </h3>
+          <h3> Research and Technical Marketing Manager </h3>
           <span className='bar'></span>
           <img src={jpg2} className='img2' alt='' />
-          <p> This position provides to drive an integrated and coordinated organisation-wide core business operations philosophy. Lead
-and direct the division to perform functions in the water and waste water supply value chain.</p>
+          <p> Accountable for the implementation of tactical work plans and formulating dynamic marketing research, segmentation, market planning, and
+            technical content management. Developing strategies with particular emphasis on the achievement of the desired sales results that will
+            position the Scheme favourably in relation to other top open medical schemes and resonate with the general public, as well as continuous
+            improvement of disciplines within Medshield and service quality to key stakeholders.</p>
           <p>Contract Type: 5 Year Fixed Term</p>
-          <p>Closing Date: 15th November 2022</p>
+          <p>Closing Date: 25th November 2022</p>
           {/* <p>Email CV to: responses@tafadzwa.co.za</p> */}
           {/* <Link to='/contact' className='btn'>Apply</Link> */}
           {/* <button btnClass={"btn"} onClick={onDownload.bind(this)} >
           Apply Now
           </button> */}
-           <button btnClass={"btn"} onClick={btnClick2.bind(this)} >
+          <button btnClass={"btn"} onClick={btnClick2.bind(this)} >
             Apply Now
           </button>
         </div>
         <div className='card'>
-          <h3> Programme Manager </h3>
+          <h3> Legal Advisor </h3>
           <span className='bar'></span>
           <img src={jpg3} className='img3' alt='' />
-          <p> To manage the delivery of Zenex Foundation programmes in line with
-the strategic objectives, through building and maintaining effective
-partnerships and stakeholder management.</p>
+          <p> Give accurate and timely counsel to executives in a variety of legal topics. Knowledge for of legal aspects -
+            labour law, mergers and acquisitions ventures, corporate finance, healthcare and medical scheme’s
+            industry, insurance law, intellectual property law and IT law. Collaborate with management to meet
+            organisational objectives in a legal and complaint manner.</p>
           <p>Contract Type: Permanent</p>
-          <p>Closing Date: 15th November 2022</p>
+          <p>Closing Date: 25th November 2022</p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick3.bind(this)} >
             Apply Now
           </button>
         </div>
         <div className='card'>
-          <h3> Draughtsman: North West Province </h3>
+          <h3> Finance Manager </h3>
           <span className='bar'></span>
           <img src={jpg4} className='img4' alt='' />
-          <p>Providing mechanical and electrical design services, valid flow sheets and updated readily
-available technical drawings for Dudfield plant.
- Making up design drawings for specific projects for maintenance department and all plant
-managers.</p>
+          <p>Accountable for the implementation of tactical work plans and formulate associated procedures to ensure
+            the effective operational implementation of all relevant financial processes and statutory regulations to
+            support the Scheme’s value chain and strategic initiatives.</p>
           <p>Contract Type: Permanent</p>
-          <p>Closing Date: 15th November 2022</p>
+          <p>Closing Date: 25th November 2022</p>
           {/* <Link to='/contact' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick4.bind(this)} >
             Apply Now
           </button>
         </div>
         <div className='card'>
-          <h3> Programme Director </h3>
+          <h3> Fleet Sales Analyst </h3>
           <span className='bar'></span>
           <img src={jpg5} className='img5' alt='' />
-          <p>To operationalize the Zenex Foundation strategy for portfolio through leading,
-organising and managing the team and programmes, building and maintaining
-effective partnerships and stakeholder management, thereby contributing to
-the achievement of the Zenex Foundation strategic objectives.</p>
+          <p>A Credit Analyst is responsible for evaluating the financial health of a loan applicant to determine whether to approve their application.
+            Their duties include working with Junior Credit Analysts to investigate a loan applicant’s finances, helping business owners determine the financial risks associated with a
+            potential client and adhering to lending protocols to confirm or deny applicants their loan.</p>
           <p>Contract Type: Permanent</p>
-          <p>Closing Date: 15th November 2022</p>
+          <p>Closing Date: 25th November 2022</p>
           {/* <Link to='/contact' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick5.bind(this)} >
+            Apply Now
+          </button>
+        </div>
+        <div className='card'>
+          <h3> General Manger </h3>
+          <span className='bar'></span>
+          <img src={jpg6} className='img6' alt='' />
+          <p>Leading Company’s Property Management - overseeing of the business unit to achieve revenue
+            targets and growth plans through the growth of the portfolio, while driving the business
+            forward.</p>
+          <p>Contract Type: Permanent</p>
+          <p>Closing Date: 25th November 2022</p>
+          {/* <Link to='/contact' className='btn'>Apply</Link> */}
+          <button btnClass={"btn"} onClick={btnClick6.bind(this)} >
+            Apply Now
+          </button>
+        </div>
+        <div className='card'>
+          <h3> Data Analyst </h3>
+          <span className='bar'></span>
+          <img src={jpg7} className='img7' alt='' />
+          <p>As a Data Analyst you will be responsible for applying data analytics techniques such as
+            mining, generation, and visualisation, to deliver unparalleled Big Data support and service
+            to the business. The incumbent will also be responsible for transforming data into readable,
+            goal-driven reports for continued innovation and growth.</p>
+          <p>Contract Type: Permanent</p>
+          <p>Closing Date: 25th November 2022</p>
+          {/* <Link to='/contact' className='btn'>Apply</Link> */}
+          <button btnClass={"btn"} onClick={btnClick7.bind(this)} >
             Apply Now
           </button>
         </div>
