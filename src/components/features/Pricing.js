@@ -17,7 +17,7 @@ const btnClick = () => {
 
 const btnClick2 = () => {
   console.log('Im here')
-  window.open('https://forms.gle/3MJHZQr56FWBJFDY9')
+  window.open('https://forms.gle/hK4i4vf1379iJw2K9')
 }
 
 
