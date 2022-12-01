@@ -23,7 +23,7 @@ const btnClick2 = () => {
 
 const btnClick3 = () => {
   console.log('Im here')
-  window.open('https://forms.gle/skGeeyQFvrtxqdDt9')
+  window.open('https://forms.gle/B8PcFdP78T1v13dg7')
 }
 
 // const btnClick4 = () => {
