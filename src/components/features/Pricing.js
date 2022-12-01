@@ -4,10 +4,10 @@ import '../features/PricingStyles.css'
 import jpg1 from '../../assets/img1.jpg'
 import jpg2 from '../../assets/img2.jpg'
 import jpg3 from '../../assets/img3.jpg'
-import jpg4 from '../../assets/img4.jpg'
-import jpg5 from '../../assets/img5.jpg'
-import jpg6 from '../../assets/img6.jpg'
-import jpg7 from '../../assets/img7.jpg'
+// import jpg4 from '../../assets/img4.jpg'
+// import jpg5 from '../../assets/img5.jpg'
+// import jpg6 from '../../assets/img6.jpg'
+// import jpg7 from '../../assets/img7.jpg'
 // import pdf from '../../assets/SCI-BONO_CEO_2022.pdf'
 
 const btnClick = () => {
@@ -26,25 +26,25 @@ const btnClick3 = () => {
   window.open('https://forms.gle/skGeeyQFvrtxqdDt9')
 }
 
-const btnClick4 = () => {
-  console.log('Im here')
-  window.open('https://forms.gle/Nu2sSQKZZKedmjHW9')
-}
+// const btnClick4 = () => {
+//   console.log('Im here')
+//   window.open('https://forms.gle/Nu2sSQKZZKedmjHW9')
+// }
 
-const btnClick5 = () => {
-  console.log('Im here')
-  window.open('https://forms.gle/XuH6EjZewAaXNSZz6')
-}
+// const btnClick5 = () => {
+//   console.log('Im here')
+//   window.open('https://forms.gle/XuH6EjZewAaXNSZz6')
+// }
 
-const btnClick6 = () => {
-  console.log('Im here')
-  window.open('https://forms.gle/4jhws6RDKXhpekVq6')
-}
+// const btnClick6 = () => {
+//   console.log('Im here')
+//   window.open('https://forms.gle/4jhws6RDKXhpekVq6')
+// }
 
-const btnClick7 = () => {
-  console.log('Im here')
-  window.open('https://forms.gle/v435DHdXQycK4snr8')
-}
+// const btnClick7 = () => {
+//   console.log('Im here')
+//   window.open('https://forms.gle/v435DHdXQycK4snr8')
+// }
 
 
 
@@ -64,12 +64,12 @@ const Pricing = () => {
     <div className='pricing'>
       <div className='card-container'>
         <div className='card'>
-          <h3> Umgeni Water: Group Company Secretary </h3>
+          <h3> Broker Consultant </h3>
           <span className='bar'></span>
           <img src={jpg1} className='img' alt='' />
-          <p> You will have to provide company secretarial services to Umgeni Water Board and its subsidiaries to ensure compliance with
-            statutory, judicial, and ethical corporate governance standards.</p>
-          <p>Closing Date: 16th November 2022 </p>
+          <p> Accountable for membership growth and retention by establishing and maintaining sound relations with
+brokers and other key stakeholders.</p>
+          <p>Closing Date: 15th December 2022 </p>
           <p>Contract Type: Permanent</p>
           {/* <Link to='/contact' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick.bind(this)} >
@@ -77,15 +77,16 @@ const Pricing = () => {
           </button>
         </div>
         <div className='card'>
-          <h3> Research and Technical Marketing Manager </h3>
+          <h3> Manager: Disease Management | Medicine Management |
+Ambulatory Care </h3>
           <span className='bar'></span>
           <img src={jpg2} className='img2' alt='' />
-          <p> Accountable for the implementation of tactical work plans and formulating dynamic marketing research, segmentation, market planning, and
-            technical content management. Developing strategies with particular emphasis on the achievement of the desired sales results that will
-            position the Scheme favourably in relation to other top open medical schemes and resonate with the general public, as well as continuous
-            improvement of disciplines within Medshield and service quality to key stakeholders.</p>
-          <p>Contract Type: 5 Year Fixed Term</p>
-          <p>Closing Date: 25th November 2022</p>
+          <p> Accountable for the implementation of tactical work plans and formulate associated procedures to minimise the
+financial risk of the Scheme by implementing, maintaining, and improving the defined care programs with special
+emphasis on Medicine Management, Disease Management, and Ambulatory Care; providing clinical support for
+maintaining the acceptable level of quality and cost-effective risk measures.</p>
+          <p>Contract Type: Permanent</p>
+          <p>Closing Date: 15th December 2022</p>
           {/* <p>Email CV to: responses@tafadzwa.co.za</p> */}
           {/* <Link to='/contact' className='btn'>Apply</Link> */}
           {/* <button btnClass={"btn"} onClick={onDownload.bind(this)} >
@@ -96,74 +97,18 @@ const Pricing = () => {
           </button>
         </div>
         <div className='card'>
-          <h3> Legal Advisor </h3>
+          <h3> BCCEI : General Secretary </h3>
           <span className='bar'></span>
           <img src={jpg3} className='img3' alt='' />
-          <p> Give accurate and timely counsel to executives in a variety of legal topics. Knowledge for of legal aspects -
-            labour law, mergers and acquisitions ventures, corporate finance, healthcare and medical scheme’s
-            industry, insurance law, intellectual property law and IT law. Collaborate with management to meet
-            organisational objectives in a legal and complaint manner.</p>
+          <p> The person must be outcome driven, promotes equitable people management and strives for business
+excellence. The vacancy exists within the National Office of the Bargaining Council for the Civil
+Engineering Industry (BCCEI) for a General Secretary, with outstanding vision, strong
+leadership skills and the ability to provide strategic leadership for the Council. The position reports to the Management Committee of the BCCEI, which is representative of
+all parties.</p>
           <p>Contract Type: Permanent</p>
-          <p>Closing Date: 25th November 2022</p>
+          <p>Closing Date: 30th November 2022</p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick3.bind(this)} >
-            Apply Now
-          </button>
-        </div>
-        <div className='card'>
-          <h3> Finance Manager </h3>
-          <span className='bar'></span>
-          <img src={jpg4} className='img4' alt='' />
-          <p>Accountable for the implementation of tactical work plans and formulate associated procedures to ensure
-            the effective operational implementation of all relevant financial processes and statutory regulations to
-            support the Scheme’s value chain and strategic initiatives.</p>
-          <p>Contract Type: Permanent</p>
-          <p>Closing Date: 25th November 2022</p>
-          {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick4.bind(this)} >
-            Apply Now
-          </button>
-        </div>
-        <div className='card'>
-          <h3> Fleet Sales Analyst </h3>
-          <span className='bar'></span>
-          <img src={jpg5} className='img5' alt='' />
-          <p>A Credit Analyst is responsible for evaluating the financial health of a loan applicant to determine whether to approve their application.
-            Their duties include working with Junior Credit Analysts to investigate a loan applicant’s finances, helping business owners determine the financial risks associated with a
-            potential client and adhering to lending protocols to confirm or deny applicants their loan.</p>
-          <p>Contract Type: Permanent</p>
-          <p>Closing Date: 25th November 2022</p>
-          {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick5.bind(this)} >
-            Apply Now
-          </button>
-        </div>
-        <div className='card'>
-          <h3> General Manger </h3>
-          <span className='bar'></span>
-          <img src={jpg6} className='img6' alt='' />
-          <p>Leading Company’s Property Management - overseeing of the business unit to achieve revenue
-            targets and growth plans through the growth of the portfolio, while driving the business
-            forward.</p>
-          <p>Contract Type: Permanent</p>
-          <p>Closing Date: 25th November 2022</p>
-          {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick6.bind(this)} >
-            Apply Now
-          </button>
-        </div>
-        <div className='card'>
-          <h3> Data Analyst </h3>
-          <span className='bar'></span>
-          <img src={jpg7} className='img7' alt='' />
-          <p>As a Data Analyst you will be responsible for applying data analytics techniques such as
-            mining, generation, and visualisation, to deliver unparalleled Big Data support and service
-            to the business. The incumbent will also be responsible for transforming data into readable,
-            goal-driven reports for continued innovation and growth.</p>
-          <p>Contract Type: Permanent</p>
-          <p>Closing Date: 25th November 2022</p>
-          {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick7.bind(this)} >
             Apply Now
           </button>
         </div>
