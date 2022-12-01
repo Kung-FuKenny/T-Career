@@ -106,7 +106,7 @@ Engineering Industry (BCCEI) for a General Secretary, with outstanding vision, s
 leadership skills and the ability to provide strategic leadership for the Council. The position reports to the Management Committee of the BCCEI, which is representative of
 all parties.</p>
           <p>Contract Type: Permanent</p>
-          <p>Closing Date: 30th November 2022</p>
+          <p>Closing Date: 30th December 2022</p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick3.bind(this)} >
             Apply Now
