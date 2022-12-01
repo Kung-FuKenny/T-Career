@@ -12,7 +12,7 @@ import jpg3 from '../../assets/img3.jpg'
 
 const btnClick = () => {
   console.log('Im here')
-  window.open('https://forms.gle/ZJDeWUCnMLjNKaZa8')
+  window.open('https://forms.gle/gcFaw26hrtirEyQRA')
 }
 
 const btnClick2 = () => {
