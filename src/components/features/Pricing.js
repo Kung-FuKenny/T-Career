@@ -21,7 +21,7 @@ const btnClick3 = () => {
 }
 
 const btnClick4 = () => {
-  window.open('#')
+  window.open('https://forms.gle/QXAE96Wm9gQM4k6T8')
 }
 
 
@@ -84,7 +84,7 @@ all parties.</p>
           <img src={jpg7} className='img3' alt='' />
           <p> To manage, lead, coordinate and provide strategic direction to the Engineering, Planning & Execution business unit, ensuring optimal alignment with the Company’s strategies and business requirements, with the delivery of projects, programs, enterprise architectures and processes to satisfy these strategies and business requirements.</p>
           <p>Contract Type: Permanent</p>
-          <p>Closing Date: </p>
+          <p>Closing Date: 01 June 2023 </p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick4.bind(this)} >
             Apply Now
