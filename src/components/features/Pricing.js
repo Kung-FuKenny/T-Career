@@ -98,7 +98,7 @@ all parties.</p>
         <div className='card'>
           <h3>Principal Officer </h3>
           <span className='bar'></span>
-          <img src={jpg7} className='img3' alt='' />
+          <img src={jpg10} className='img3' alt='' />
           <p>
 
           Assume the role as PO of the Organization;Member of the Board without voting Powers.
