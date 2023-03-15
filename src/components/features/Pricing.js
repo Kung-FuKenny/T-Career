@@ -6,6 +6,7 @@ import jpg2 from '../../assets/img2.jpg'
 import jpg3 from '../../assets/img3.jpg'
 
 import jpg7 from '../../assets/img7.jpg'
+import jpg10 from '../../assets/img10.jpg'
 
 const btnClick = () => {
   window.open('https://forms.gle/gcFaw26hrtirEyQRA')
@@ -22,6 +23,10 @@ const btnClick3 = () => {
 
 const btnClick4 = () => {
   window.open('https://forms.gle/QXAE96Wm9gQM4k6T8')
+}
+
+const btnClick5 = () => {
+  window.open('https://forms.gle/Bs4d6terUoCbjreHA')
 }
 
 
@@ -87,6 +92,28 @@ all parties.</p>
           <p>Closing Date: 01 June 2023 </p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick4.bind(this)} >
+            Apply Now
+          </button>
+        </div>
+        <div className='card'>
+          <h3>Principal Officer </h3>
+          <span className='bar'></span>
+          <img src={jpg7} className='img3' alt='' />
+          <p>
+
+          Assume the role as PO of the Organization;Member of the Board without voting Powers.
+          Effect is given to the strategic direction provided by the Board. Responsible for overseeing the operational functioning of the Scheme in
+          line with delegated authority as per the Approvals Framework. Monitoring member's needs and requirements and facilitating strategic positioning in the market.
+          Spokesperson for the Scheme and ensuring the employer's and members best interests are considered at all times.
+          Keeping the chairperson informed of all important and relevant matters pertaining to Scheme, placing a strong emphasis on driving growth within the Scheme.
+          PO to provide clear aims and objective of the Scheme / New strategic plan to the BoT.
+
+
+          </p>
+          <p>Contract Type: Permanent</p>
+          <p>Closing Date: 01 June 2023 </p>
+          {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
+          <button btnClass={"btn"} onClick={btnClick5.bind(this)} >
             Apply Now
           </button>
         </div>
