@@ -7,6 +7,7 @@ import jpg3 from '../../assets/img3.jpg'
 
 import jpg7 from '../../assets/img7.jpg'
 import jpg10 from '../../assets/img10.jpg'
+import jpg11 from '../../assets/img11.jpg'
 
 const btnClick = () => {
   window.open('https://forms.gle/gcFaw26hrtirEyQRA')
@@ -27,6 +28,9 @@ const btnClick4 = () => {
 
 const btnClick5 = () => {
   window.open('https://forms.gle/Bs4d6terUoCbjreHA')
+}
+const btnClick6 = () => {
+  window.open('https://forms.gle/Xcn9bPMvtugZyk3F9')
 }
 
 
@@ -101,19 +105,29 @@ all parties.</p>
           <img src={jpg10} className='img3' alt='' />
           <p>
 
-          Assume the role as PO of the Organization;Member of the Board without voting Powers.
-          Effect is given to the strategic direction provided by the Board. Responsible for overseeing the operational functioning of the Scheme in
-          line with delegated authority as per the Approvals Framework. Monitoring member's needs and requirements and facilitating strategic positioning in the market.
-          Spokesperson for the Scheme and ensuring the employer's and members best interests are considered at all times.
-          Keeping the chairperson informed of all important and relevant matters pertaining to Scheme, placing a strong emphasis on driving growth within the Scheme.
-          PO to provide clear aims and objective of the Scheme / New strategic plan to the BoT.
-
-
+          Assume the role as PO of the Organization, responsible for overseeing the operational functioning of the Scheme in
+          line with delegated authority as per the Approvals Framework. 
+          
           </p>
           <p>Contract Type: Permanent</p>
           <p>Closing Date: 01 June 2023 </p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
           <button btnClass={"btn"} onClick={btnClick5.bind(this)} >
+            Apply Now
+          </button>
+        </div>
+        <div className='card'>
+          <h3>Director: Corporate Services and Finance</h3>
+          <span className='bar'></span>
+          <img src={jpg11} className='img3' alt='' />
+          <p>To lead and manage the efficient delivery of organisation’s core financial management and corporate services
+              by providing financial services, ensuring adherence to good governance procedures and compliance with
+              statutory requirements; to manage the delivery of the organisational operations through leading, organising
+              and managing the team.</p>
+          <p>Contract Type: Permanent</p>
+          <p>Closing Date: 01 July 2023 </p>
+          {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
+          <button btnClass={"btn"} onClick={btnClick6.bind(this)} >
             Apply Now
           </button>
         </div>
