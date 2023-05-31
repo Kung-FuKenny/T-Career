@@ -48,60 +48,27 @@ const btnClick9 = () => {
 const btnClick10 = () => {
   window.open('https://forms.gle/7RSBPZBpxSf3BGST8')
 }
-
+const btnClick11 = () => {
+  window.open('https://forms.gle/6PASGXLLdCT1w3na9')
+}
 const Pricing = () => {
   return (
     <div className='pricing'>
       <div className='card-container'>
-        <div className='card'>
-          <h3> Broker Consultant </h3>
-          <span className='bar'></span>
-          <img src={jpg1} className='img' alt='' />
-          <p> Accountable for membership growth and retention by establishing and maintaining sound relations with
-brokers and other key stakeholders.</p>
-          <p>Closing Date: 15th December 2022 </p>
-          <p>Contract Type: Permanent</p>
-          {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick.bind(this)} >
-            Apply Now
-          </button>
-        </div>
-        <div className='card'>
-          <h3> Manager: Disease Management | Medicine Management |
-Ambulatory Care </h3>
-          <span className='bar'></span>
-          <img src={jpg2} className='img2' alt='' />
-          <p> Accountable for the implementation of tactical work plans and formulate associated procedures to minimise the
-financial risk of the Scheme by implementing, maintaining, and improving the defined care programs with special
-emphasis on Medicine Management, Disease Management, and Ambulatory Care; providing clinical support for
-maintaining the acceptable level of quality and cost-effective risk measures.</p>
-          <p>Contract Type: Permanent</p>
-          <p>Closing Date: 15th December 2022</p>
-          {/* <p>Email CV to: responses@tafadzwa.co.za</p> */}
-          {/* <Link to='/contact' className='btn'>Apply</Link> */}
-          {/* <button btnClass={"btn"} onClick={onDownload.bind(this)} >
-          Apply Now
-          </button> */}
-          <button btnClass={"btn"} onClick={btnClick2.bind(this)} >
-            Apply Now
-          </button>
-        </div>
-        <div className='card'>
-          <h3> BCCEI : General Secretary </h3>
+      <div className='card'>
+          <h3>Chief Executive Officer</h3>
           <span className='bar'></span>
           <img src={jpg3} className='img3' alt='' />
-          <p> The person must be outcome driven, promotes equitable people management and strives for business
-excellence. The vacancy exists within the National Office of the Bargaining Council for the Civil
-Engineering Industry (BCCEI) for a General Secretary, with outstanding vision, strong
-leadership skills and the ability to provide strategic leadership for the Council. The position reports to the Management Committee of the BCCEI, which is representative of
-all parties.</p>
-          <p>Contract Type: Permanent</p>
-          <p>Closing Date: 30th December 2022</p>
+          <p>Support the Chief Executive Officer in leading the organization in the successful pursuit of its vision, mission, and strategic objectives through effective and efficient management of the
+            operational requirements delegated by the Chief Executive Officer</p>
+          <p>Contract Type: Fixed term (5 year contract)</p>
+          <p>Closing Date: 9 June 2023</p>
           {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick3.bind(this)} >
+          <button btnClass={"btn"} onClick={btnClick11.bind(this)} >
             Apply Now
           </button>
         </div>
+
         <div className='card'>
           <h3>HEAD: Engineering, Planning and Execution </h3>
           <span className='bar'></span>
@@ -196,6 +163,7 @@ all parties.</p>
             Apply Now
           </button>
         </div>
+       
       </div>
     </div>
   )
