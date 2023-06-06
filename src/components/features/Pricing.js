@@ -51,10 +51,28 @@ const btnClick10 = () => {
 const btnClick11 = () => {
   window.open('https://forms.gle/6PASGXLLdCT1w3na9')
 }
+const btnClick12 = () => {
+  window.open('https://forms.gle/8QrXAo5kGs6GuJh66')
+}
+
+
 const Pricing = () => {
   return (
     <div className='pricing'>
       <div className='card-container'>
+      <div className='card'>
+          <h3>Treasury Accountant</h3>
+          <span className='bar'></span>
+          <img src={jpg2} className='img3' alt='' />
+          <p>The Financial and Treasury Accountant is responsible for to control all loan payment interest. The incumbent manages and maintains all bank accounts associated with the Organisation. </p>
+          <p>Contract Type: Permanent</p>
+          <p>Closing Date: 8 June 2023</p>
+          {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
+          <button btnClass={"btn"} onClick={btnClick12.bind(this)} >
+            Apply Now
+          </button>
+        </div>
+
       <div className='card'>
           <h3>Chief Executive Officer</h3>
           <span className='bar'></span>
