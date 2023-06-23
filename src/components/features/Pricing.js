@@ -54,7 +54,9 @@ const btnClick11 = () => {
 const btnClick12 = () => {
   window.open('https://forms.gle/8QrXAo5kGs6GuJh66')
 }
-
+const btnClick14 = () => {
+  window.open('https://forms.gle/yWfvgJK9fHLkHFn4A')
+}
 
 const Pricing = () => {
   return (
@@ -73,6 +75,19 @@ const Pricing = () => {
           </button>
         </div>
 
+        <div className='card'>
+          <h3>Area Finance Manager - Taxi</h3>
+          <span className='bar'></span>
+          <img src={jpg10} className='img3' alt='' />
+          <p>Stake the responsibility for the acquisition of new fleet, wholesale and corporate customers in establishing financing facilities for the purchase of new an..</p>
+          <p>Contract Type: Fixed term (5 year contract)</p>
+          <p>Closing Date: 9 June 2023</p>
+          {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
+          <button btnClass={"btn"} onClick={btnClick14.bind(this)} >
+            Apply Now
+          </button>
+        </div>
+        
       <div className='card'>
           <h3>Chief Executive Officer</h3>
           <span className='bar'></span>
@@ -98,24 +113,7 @@ const Pricing = () => {
           <button btnClass={"btn"} onClick={btnClick4.bind(this)} >
             Apply Now
           </button>
-        </div>
-        <div className='card'>
-          <h3>Principal Officer </h3>
-          <span className='bar'></span>
-          <img src={jpg10} className='img3' alt='' />
-          <p>
-
-          Assume the role as PO of the Organization, responsible for overseeing the operational functioning of the Scheme in
-          line with delegated authority as per the Approvals Framework. 
-          
-          </p>
-          <p>Contract Type: Permanent</p>
-          <p>Closing Date: 01 June 2023 </p>
-          {/* <Link to='https://forms.gle/KEgQLDYjfyMrg9kJ6' className='btn'>Apply</Link> */}
-          <button btnClass={"btn"} onClick={btnClick5.bind(this)} >
-            Apply Now
-          </button>
-        </div>
+        </div>        
         <div className='card'>
           <h3>Director: Corporate Services and Finance</h3>
           <span className='bar'></span>
